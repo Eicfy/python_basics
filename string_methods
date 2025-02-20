@@ -8,3 +8,8 @@ text = text.upper()
 text =  text.split()
 
 print(text)
+
+#Other solution
+text = "The goal is to turn data into information, and information into insight."
+
+text.upper().replace(".", " ").replace(",", " ").split()
