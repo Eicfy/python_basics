@@ -1,0 +1,23 @@
+# Step 1: Check the number of elements in the given list.
+# Step 2: Retrieve the elements at index 0 and index 10.
+# Step 3: Create a new list ["D", "A", "T", "A"] from the given list.
+# Step 4: Remove the element at index 8.
+# Step 5: Add a new element to the list.
+# Step 6: Reinsert the element "N" at index 8.
+
+lst = ["D", "A", "T", "A", "S", "C", "I", "E", "N", "C", "E"]
+
+print(len(lst))
+print(lst[0], lst[10])
+
+lst2 = lst[0:4]
+print(lst2)
+
+lst.pop(8)
+print(lst)
+
+lst.append(1)
+print(lst)
+
+lst.insert(8, "N")
+print(lst)
