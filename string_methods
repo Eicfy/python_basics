@@ -1,0 +1,10 @@
+# Our goal here is to convert all letters in the given string to uppercase, replace commas and periods with spaces, and split the text into words.
+
+text = "The goal is to turn data into information, and information into insight."
+
+text = text.replace(",", "")
+text = text.replace(".", "")
+text = text.upper()
+text =  text.split()
+
+print(text)
