@@ -15,3 +15,24 @@ for i in l:
 
 print(odd_list)
 print(even_list)
+
+#Other solution
+l = [2, 13, 18, 93, 22]
+
+def func(list):
+
+    odd_list = []
+    even_list = []
+
+    for i in list:
+        if i % 2 == 0:
+            even_list.append(i)
+        else:
+            odd_list.append(i)
+
+    return odd_list, even_list
+
+odd, even = func(l)
+
+print(odd)
+print(even)
