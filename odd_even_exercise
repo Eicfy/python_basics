@@ -34,5 +34,4 @@ def func(list):
 
 odd, even = func(l)
 
-print(odd)
-print(even)
+print(("Odd:", odd),("Even:", even))
