@@ -1,0 +1,24 @@
+#Step 1: Access the keys of the dictionary.
+#Step 2: Access the values of the dictionary.
+#Step 3: Update the value of the key "Daisy" from 12 to 13.
+#Step 4: Add a new key-value pair "Emirhan": ["Turkey", 25] to the dictionary.
+#Step 5: Remove "Antonio" from the dictionary.
+
+dict = {"Christian" : ["America", 18],
+        "Daisy" : ["England", 12],
+        "Antonio" : ["Spain", 22],
+        "Dante" : ["Italy", 25]}
+
+print(dict.keys())
+   
+print(dict.values())
+
+dict.update({"Daisy" : ["England", 13]})
+print(dict)
+
+dict.update({"Emirhan" : ["Turkey", 25]})
+print(dict)
+
+dict.pop("Antonio")
+print(dict)
+
