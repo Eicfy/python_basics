@@ -1,0 +1,17 @@
+#The goal here is to separate the numbers in a given list into odd and even numbers, creating two separate lists.
+
+l = [2, 13, 18, 93, 22]
+
+odd_list = []
+even_list = []
+
+for i in l:
+
+    if i % 2 == 0:
+        even_list.append(i)
+
+    else:
+        odd_list.append(i)
+
+print(odd_list)
+print(even_list)
