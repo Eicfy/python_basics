@@ -1,0 +1,13 @@
+#The first three students in the list represent the ranking of the Faculty of Engineering, while the last three students belong to the ranking of the Faculty of Medicine.
+
+Let's use enumerate to display the student rankings within their respective faculties.
+
+students = ["Ali", "Veli", "Ayşe", "Talat", "Zeynep", "Ece"]
+
+for i, x in enumerate(students):
+    if i < 3:
+        i += 1
+        print("Faculty of Engineering", i, ". student: ", x)
+    else:
+        i -=2
+        print("Faculty of Medicine", i, ". student: ", x)
