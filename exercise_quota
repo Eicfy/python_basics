@@ -1,0 +1,9 @@
+#The lists contain a course's code, credit, and quota information in order.
+#Use zip to print the course details.
+
+courses_code = ["CMP1005","PSY1001","HUK1005","SEN2204"]
+credit = [3,4,2,4]
+quota_information = [30,75,150,25]
+
+for courses_code, credit, quota_information in zip(courses_code, credit, quota_information):
+  print(f"the {courses_code} course, which has {credit} credits, has a quota of  {quota_information} students.")
