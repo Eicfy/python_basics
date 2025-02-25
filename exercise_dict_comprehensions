@@ -1,0 +1,5 @@
+#This exercise involves finding the even numbers from a list of numbers ranging from one to ten, squaring them, and adding them to a dictionary.
+
+number = range(10)
+
+{n: n**2 for n in numbers if n % 2 == 0}
